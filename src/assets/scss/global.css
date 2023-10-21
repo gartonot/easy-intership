@@ -1,0 +1,29 @@
+@import "variables";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-lighter;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin-block: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.container {
+  max-width: 1432px;
+  margin-inline: auto;
+  padding: 24px;
+}
