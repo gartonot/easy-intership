@@ -1,2 +1,109 @@
-.register {
+.rightContainer {
+  background-color: linear-gradient(to right, #70DF67, #50B848, #58C250, #70DF67);
+  width: 75%;
+  height: max-content;
+  display: flex;
+  place-items: center;
+}
+
+.welcome {
+  display: flexbox;
+  place-items: center;
+}
+
+.easyIntershipHeader h1 {
+  color: var(--color-white, #FFF);
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#welcomeContainer h4 {
+  color: var(--color-white, #FFF);
+  font-family: Roboto;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#welcomeContainer p {
+  color: var(--color-white, #FFF);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#leftContainer {
+  width: 25%;
+  height: max-content;
+  background: var(--color-lighter);
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+#logoContainer {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+#logoContainer img{
+  max-width: 34px;
+  max-height: 34px;
+}
+
+#regContainer {
+  top: 10px;
+  bottom: 10px;
+  right: 30px;
+  left: 30px;
+}
+
+#authRegContainer {
+  display: inline-block;
+}
+
+#authRegContainer h2 {
+  color: var(--color-black, #0C0B17);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#authRegContainer p {
+  color: var(--color-black, #0C0B17);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.importantInput {
+  color: var(--color-error, #E04042);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.regInput {
+  width: 322px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+#buttonSubmit {
+  border-radius: 8px;
+  background: var(--color-primary, #50B848);
 }
