@@ -6,7 +6,7 @@ import Register from './pages/Register/Register.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/register',
+    path: '/',
     element:  <Register />
   }
 ])

@@ -1,7 +1,7 @@
 import styles from './AppTextField.module.css'
 import PenIcon from "../../icons/PenIcon/PenIcon.jsx";
 
-const AppTextField = ({label, type = "text", placeholder}) => {
+const AppTextField = ({label, type = "text", placeholder, icon = false}) => {
   return (
     <>
      <div className={styles.textField}>
@@ -26,9 +26,16 @@ const AppTextField = ({label, type = "text", placeholder}) => {
              />
            )
        }
-       <div className={styles.icon}>
-         <PenIcon  style={{ color: 'currentColor' }} />
-       </div>
+       {
+         icon ?
+           (
+             <div className={styles.icon}>
+               <PenIcon style={{ color: 'currentColor' }} />
+             </div>
+           )
+         : ''
+       }
+
      </div>
     </>
   )
